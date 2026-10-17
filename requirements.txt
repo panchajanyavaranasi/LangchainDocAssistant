@@ -1,0 +1,18 @@
+# Core LangChain
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+
+# LLM (Claude) and local embeddings
+langchain-anthropic>=0.3
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# Vector search and PDF parsing
+faiss-cpu>=1.8
+pypdf>=4.0
+
+# Web app and configuration
+streamlit>=1.38
+python-dotenv>=1.0

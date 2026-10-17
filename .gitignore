@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Generated vector indexes
+vectorstore/
+*.faiss
+*.pkl
+
+# Streamlit / IDE / OS
+.streamlit/secrets.toml
+.idea/
+.vscode/
+.DS_Store
